@@ -25,6 +25,8 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
+    
+    compile group: 'com.google.guava', name: 'guava', version: '22.0'
     compile("org.springframework.boot:spring-boot-starter-web")
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
